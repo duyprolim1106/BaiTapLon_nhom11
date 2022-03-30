@@ -6,7 +6,6 @@ html body{
     background-color: #0F0F0F;
 }
 
-
 /* CSS for header */
 .active{
     color: white;
@@ -115,7 +114,7 @@ li.menu_items>a:hover{
     font-size: 16px;
     font-weight: 500px;
     line-height: 24px;
-    margin top: 16px;
+    margin-top: 16px;
     text-align: center;
     display: block;
 
@@ -125,8 +124,7 @@ li.menu_items>a:hover{
     font-size: 16px;
     font-weight: 1000px;
     line-height: 24px;
-    margin top: 16px;
-    
+    margin-top: 16px;
     display: block; 
 }
 .cover{
@@ -201,7 +199,4 @@ div.items>p{
     font-size: 17px;
     white-space: nowrap;
     color: white;
-
-
-
-
+}
