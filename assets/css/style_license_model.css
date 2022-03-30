@@ -3,6 +3,8 @@ html body{
     padding: 0 auto;
     font-family: sans-serif;
     background-color: #0F0F0F;
+    position: relative;
+    
 }
 
 
@@ -107,43 +109,419 @@ li.menu_items>a:hover{
     display: flex;
     
 }
-
-.box_item2{
-   flex: 1;
-    height: 100px;
-    width: 100px;
-    
-    
-}
+   
 .box1{
     color:white;
     font-size:56px;
-    line-height: 18.4px;
+    line-height: 64px;
+    height: 64px;
+    width: 486.225px;
+    font-weight: 600;
+    letter-spacing: -1.12px;
+
 }
+
 .box2{
     color:#828282;
-    font-size: 21px;
+    height: 72px;
+    width: 528px;
+    margin: 0 0 40px 0;
+    font-size: 20px;
     font-weight:500 ;
     line-height: 24px;
 }
-.button{
-    height: 50px;
-    width: 150px;
+.bot_item1{
+    height: 56px;
+    color: #FFFFFF;
+    width: 137.175px;
+    padding: 0 24px 0 24px;
     font-size: 20px;
-    color: aliceblue;
-    font-family: 'Roboto', sans-serif;
-    background-color: #009De0;
-    padding: 0px;
-    border: 0px;
-}
-.button1{
-    border: 1px solid white ;
-    height: 50px;
-    width: auto;
+    font-weight: 600;
+    line-height: 56px;
+    text-align : center;
     white-space: nowrap;
+    word-spacing: 0px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #009De0;
+}
+.item1{
+    color: #FFFFFF;
     font-size: 20px;
-    color: aliceblue;
-    font-family: 'Roboto', sans-serif;
-    background-color: #0F0F0F;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 0px;
+    height: auto;
+    width: auto;
+    display: inline;
+    cursor: pointer;
+}
+
+.item1:hover{
+    color: #0F0F0F;
+}
+.bot_item2:hover{
+   background-color: #333333;
 
 }
+.bot_item2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 0px;
+    height: 56px;
+    width: 173.462px;
+    padding: 0 24px 0 24px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+}
+.item2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 0px;
+    height: auto;
+    width: auto;
+    display: inline;
+    cursor: pointer;
+
+}
+
+
+
+
+
+/* Free music */
+.p2{
+    height: 472px;
+    width: 1312px;
+  
+
+}
+.text_main{
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 18.4px;
+   word-spacing: 0px;
+   padding: 64px 64px  150 px 0;
+   height: 472px;
+   width: 1312px;
+   min-height: auto;
+   min-width: auto;
+   position: relative;
+   top: 0px;
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+   display: block;
+   
+    }
+.text_header{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+    text-align: center;
+    word-spacing: 0px;
+    height: 408px;
+    width: 920px;
+    margin: 0 165px 0 165px;
+    padding: 32px;
+    padding-top: 150px;
+    max-width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    z-index: 1;
+}
+.text1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    height: 24px;
+    width: 920px;
+    word-spacing: 0px;
+    
+}
+.text2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    height: 290px;
+    width: 920px;
+    line-height: 48px;
+    text-align: center;
+}
+.ask{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+    word-spacing: 0px;
+    height: 560px;
+    width: 1440px;
+    margin: 0 40px 0 40px;
+    padding: 0 64px 0 64px ;
+    max-width: 1440px;
+    display: flex;
+    padding-top: 220px;
+
+}
+.talk{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+    word-spacing: 0px;
+    height: 560px;
+    width: 600px;
+    margin: 0 40px 0 0 ;
+    min-height: auto;
+    min-width: ;
+    display: flex;
+
+}
+
+.ask_item1{
+    
+    display: block;
+    padding-top: 160px;
+    height: 200px;
+    width: 600px;
+    padding:16px 0 16px 0;
+    min-height: auto;
+    min-width: auto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+}
+.ask1{
+    height: 48px;
+    width: 600px;
+    letter-spacing: -0.8px;
+    margin: 4px 0 33px 0;
+    color:#FFFFFF;
+    font-size: 40px;
+    word-spacing: 0px;
+}
+.ask2{
+    height: 100px;
+    width: 600px;
+    color: #767676;
+    line-height: 24px;
+    font-weight: 500;
+    word-spacing: 0px;
+}
+.ask_item2{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+    word-spacing: 0px;
+    height: 565px;
+    width: 640px;
+    padding: 10px 32px 0 32px;
+    display: block;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+/* css Our subscriptions */
+.pricing{
+    width: 90%;
+    height: 550px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #0F0F0F;
+}
+div.pricing>p{
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.grid_price{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-template-rows: repeat(1,460px);
+    grid-column-gap: 2%;
+}
+
+.grid_items_pricing{
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    height: 560px;
+    width: 350px;
+}
+
+.pricing_title{
+    display: flex;
+}
+
+.pricing--p{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.title_money{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.title_month{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+}
+
+.pricing_benefit{
+    width: 100%;
+    height: 45%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    background-color: #333333;
+}
+div.pricing_benefit>p{
+    color: white;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+div.pricing_benefit>div>span>i{
+    color: white;
+}
+
+div.pricing_benefit>div{
+    padding: 5px 0;
+    display: flex;
+}
+
+.benefit_items{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pricing_note{
+    width: 100%;
+    height: 40px;
+    text-align: start;
+    background-color: #333333;
+}
+
+div.pricing_note>p{
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #828282;
+}
+
+.pricing_note2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.btn_learnMore{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+div.btn_learnMore>div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    color: #009DE0;
+}
+
+.style_btn{
+    width: auto;
+    height: 100%;
+}
+
+.style_btn:hover{
+    border-bottom: 2px solid #009DE0 ;
+}
+
+div.btn_learnMore>div>p{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
