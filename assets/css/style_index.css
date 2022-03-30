@@ -1,4 +1,5 @@
 html body{
+    height: auto;
     margin: 0 auto;
     padding: 0 auto;
     font-family: sans-serif;
@@ -76,20 +77,24 @@ li.menu_items>a:hover{
     width: 100%;
     height: 100%;
     display: flex;
+    align-items: center;
 }
 
 .btnPremiere{
-    width: 80%;
-    height: 55%;
+    width: 135px;
+    height: 40px;
     margin:auto;
     display: flex;
-    border-radius: 5px;
-    background-color: blue;
+    color: white;
+    background-color: #009DE0;
+}
+
+.btnPremiere:hover{
+    color: black;
 }
 
 .txt_premiere{
     text-align: center;
-    color: wheat;
     margin: auto;
     font-weight: 650;
 }
@@ -150,8 +155,8 @@ div.album_music>p{
     display: grid;
     box-sizing: border-box;
     grid-template-rows: repeat(2,220px);
-    grid-template-columns: repeat(6,185.5px);
-    grid-gap: 30px 20px;
+    grid-template-columns: repeat(6,15%);
+    grid-gap: 30px 2%;
 }
 
 .grid_items{
@@ -205,7 +210,7 @@ div.grid_items>p{
 /* css for layout list music staff picks */
 .list_staff_picks{
     width: 90%;
-    height: 1000px;
+    height: 920px;
     margin-left: 5%;
     background-color: #0F0F0F;
     display: flex;
@@ -242,13 +247,365 @@ div.list_logo>img{
     width: 100%;
     height: 710px;
     display: grid;
+    margin-top: 10px;
     grid-template-columns: repeat(1,100%);
     grid-template-rows: repeat(8,80px);
     grid-row-gap: 10px;
 }
 
 .list_music_items{
-    background-color: white;
+    background-color: #0F0F0F;
     align-items: center;
     justify-content: center;
+    display: flex;
+}
+
+.music_items_btnPlay{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+}
+
+div.music_items_btnPlay>i{
+    cursor: pointer;
+    color: #575757;
+}
+
+div.music_items_btnPlay>i:hover{
+    opacity: 0.6;
+    color: white;
+    transition: 1s;
+}
+
+.music_items_nameOfSong{
+    flex: 2;
+    box-sizing: border-box;
+}
+
+.p1--head{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.p2--under{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.music_items_singer{
+    flex: 2;
+    justify-content: flex-start;
+}
+
+div.music_items_singer>p{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.music_items_typeOfSong{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.music_items_typeOfSong>p{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.music_items_lyricLogo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.music_items_lyricLogo>i{
+    color: #828282;
+    margin-top: -8px;
+}
+
+.music_items_time{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.music_items_time>p{
+    margin-top: 6px;
+}
+
+.music_items_utilities{
+    flex: 2;
+    background-color: #0F0F0F;
+}
+
+.utilities{
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+.utilities_items{
+    cursor: pointer;
+    margin-top: -10px;
+    margin-right: 25px;
+}
+
+.btn_viewLast{
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F0F0F;
+}
+
+.btn_view{
+    width: auto;
+    height: auto;
+    background-color: #0F0F0F;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn_view:hover{
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+}
+
+/* css for pricing */
+.pricing{
+    width: 90%;
+    height: 550px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border-top: 1px solid #828282;
+    background-color: #0F0F0F;
+}
+div.pricing>p{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.grid_price{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-template-rows: repeat(1,460px);
+    grid-column-gap: 2%;
+}
+
+.grid_items_pricing{
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.pricing_title{
+    display: flex;
+}
+
+.pricing--p{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.title_money{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.title_month{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+}
+
+.pricing_benefit{
+    width: 100%;
+    height: 45%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    background-color: #333333;
+}
+div.pricing_benefit>p{
+    color: white;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+div.pricing_benefit>div>span>i{
+    color: white;
+}
+
+div.pricing_benefit>div{
+    padding: 5px 0;
+    display: flex;
+}
+
+.benefit_items{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pricing_note{
+    width: 100%;
+    height: 40px;
+    text-align: start;
+    background-color: #333333;
+}
+
+div.pricing_note>p{
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #828282;
+}
+
+.pricing_note2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+
+.btn_learnMore{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+div.btn_learnMore>div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    color: #009DE0;
+}
+
+.style_btn{
+    width: auto;
+    height: 100%;
+}
+
+.style_btn:hover{
+    border-bottom: 2px solid #009DE0 ;
+}
+
+div.btn_learnMore>div>p{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+/* css for lay out end web */
+.web_end{
+    width: 90%;
+    height: 430px;
+    margin-left: 5%;
+    display: flex;
+}
+
+.layout1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.social_network{
+    flex: 4;
+    display: flex;
+}
+
+.social_network1{
+    flex: 1;
+    padding-top: 120px;
+}
+
+div.social_network1>li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+
+div.social_network1>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social_network2{
+    background-color: black;
+    flex: 1;
+}
+
+.social_network3{
+    background-color: white;
+    flex: 1;
+}
+
+.credit{
+    flex: 1;
+    display: flex;
+}
+
+.credit1{
+    flex: 1;
+}
+
+.credit1>p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #828282;
+    margin-top: 0;
+}
+
+.credit2{
+    flex: 1;
+    display: flex;
+}
+
+div.credit2>li{
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #828282;
+}
+
+.credit2>li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #828282;
+}
+
+.layout2{
+    flex: 1;
 }
