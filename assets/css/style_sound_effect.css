@@ -4,6 +4,7 @@ html body{
     padding: 0 auto;
     font-family: sans-serif;
     background-color: #0F0F0F;
+    position: relative;
 }
 
 
@@ -233,6 +234,10 @@ div.list>p{
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: rgb(255, 255, 255);
+    margin-left: 0%;
+}
+@media not|only mediatype and (media feature) {
+    CSS-Code;
 }
 
 
