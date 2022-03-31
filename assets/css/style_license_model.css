@@ -74,11 +74,11 @@ li.menu_items>a:hover{
 }
 
 .btnPremiere{
-    width: 80%;
-    height: 55%;
+    width: 135px;
+    height: 40px;
     margin:auto;
     display: flex;
-    border-radius: 5px;
+    text-align: center;
     background-color: #009De0;
 }
 
@@ -284,7 +284,7 @@ li.menu_items>a:hover{
     width: 600px;
     margin: 0 40px 0 0 ;
     min-height: auto;
-    min-width: ;
+    min-width:auto ;
     display: flex;
 
 }
@@ -333,6 +333,7 @@ li.menu_items>a:hover{
 }
 
 /* css Our subscriptions */
+
 .pricing{
     width: 90%;
     height: 550px;
@@ -373,8 +374,9 @@ div.pricing>p{
 
 .pricing--p{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 32px;
     color: white;
+    margin-bottom: 0px;
 }
 
 .title_money{
@@ -403,7 +405,7 @@ div.pricing_benefit>p{
     color: white;
     margin-top: 0;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 div.pricing_benefit>div>span>i{
@@ -415,27 +417,40 @@ div.pricing_benefit>div{
     display: flex;
 }
 
+.pricing_header{
+    color: #767676;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    word-spacing: 0px;
+    height: auto;
+    width: auto;
+
+}
 .benefit_items{
-    color: white;
+    color:#767676;
     padding-left: 5px;
     padding-right: 5px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    text-align: left;
 }
 
 .pricing_note{
     width: 100%;
     height: 40px;
     text-align: start;
+    white-space: pre-line;
+    font-size: 16px;
     background-color: #333333;
 }
 
 div.pricing_note>p{
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 16px;
+    line-height: 24px;
     color: #828282;
 }
 
@@ -448,13 +463,14 @@ div.pricing_note>p{
 .btn_learnMore{
     flex: 1;
     display: flex;
+    margin-top: 60px;
     justify-content: flex-end;
 }
 div.btn_learnMore>div{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 15px;
     color: #009DE0;
 }
 
