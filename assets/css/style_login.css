@@ -1,1 +1,243 @@
 /* css for log in */
+html body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #0F0F0F;
+}
+
+.d-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.form_login{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 860px;
+    box-sizing: border-box;
+    /* padding: 20px 100px; */
+}
+
+.form_box{
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header--logo{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.header--logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box_title{
+    width: 100%;
+    height: 300px;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 66px;
+    margin-top: 100px;
+    color: white;
+}
+
+.box_input{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_email{
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+}
+
+.input_password{
+    width: 100%;
+    height: 30%;
+    border: none;
+    display: flex;
+    margin-top: 13px;
+}
+
+.input_email:hover{
+    transition: 0.3s;
+    border-color: white;
+}
+
+.input_password:hover{
+    transition: 0.3s;
+    border-color: white;
+}
+
+.style_txtEmail{
+    width: 100%;
+    height: 100%;
+    /* margin: 12px auto; */
+    background-color: #0F0F0F;
+    border: 1px solid #828282;
+    font-size: 17px;
+    color: white;
+}
+
+.box_forgotPW{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box_inside{
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+
+.box_inside:hover{
+    border-bottom: 1px solid #436EEE;
+}
+
+.item_inside{
+    text-align: center;
+    margin: 15px auto;
+    font-weight: 600;
+    font-size: 15px;
+    color: #436EEE;
+    text-decoration: none;
+}
+
+.box_login{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box_inside1{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #0696E0;
+}
+
+.item_inside1{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.item_inside1:hover{
+    color: black;
+}
+
+.box_create_acc{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.box_acc1{
+    width: auto;
+    height: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.box_acc2{
+    width: auto;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.acc1_inside{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.acc2_inside{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.acc1_item{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0696E0;
+}
+
+.acc2_item{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0696E0;
+}
+
+.acc1_inside:hover{
+    border-bottom: 1px solid #436EEE;
+}
+
+.acc2_inside:hover{
+    border-bottom: 1px solid #436EEE;
+}
+
+.box_credit{
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+}
+
+div.credit_inside>span{
+    font-weight: 600;
+}
+
+.span_color{
+    color: #828282;
+}
+
+.span_color_blue{
+    color: #0696E0;
+    cursor: pointer;
+}
