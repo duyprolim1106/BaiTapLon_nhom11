@@ -145,10 +145,6 @@ li.menu_items>a:hover{
     color: black;
 }
 .cs1{
-<<<<<<< HEAD
-=======
-    font-family: 'Roboto',sans-serif;
->>>>>>> 09cd2dcac4dc94027afb94835abf903a22793c70
     font-size: 20px;
     font-weight: 500px;
     line-height: 24px;
@@ -327,93 +323,4 @@ div.credit2>li{
     flex: 1;
 }
 
-/* css for lay out end web */
-.web_end{
-    width: 90%;
-    height: 430px;
-    margin-left: 5%;
-    display: flex;
-}
-
-.layout1{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.social_network{
-    flex: 4;
-    display: flex;
-}
-
-.social_network1{
-    flex: 1;
-    padding-top: 120px;
-}
-
-div.social_network1>li{
-    text-decoration: none;
-    list-style: none;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: white;
-}
-
-div.social_network1>li:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.social_network2{
-    background-color: black;
-    flex: 1;
-}
-
-.social_network3{
-    background-color: white;
-    flex: 1;
-}
-
-.credit{
-    flex: 1;
-    display: flex;
-}
-
-.credit1{
-    flex: 1;
-}
-
-.credit1>p{
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #828282;
-    margin-top: 0;
-}
-
-.credit2{
-    flex: 1;
-    display: flex;
-}
-
-div.credit2>li{
-    list-style: none;
-    margin-right: 25px;
-    margin-left: 0;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #828282;
-}
-
-.credit2>li:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: #828282;
-}
-
-.layout2{
-    flex: 1;
-}
 
