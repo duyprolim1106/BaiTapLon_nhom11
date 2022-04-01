@@ -79,13 +79,15 @@ li.menu_items>a:hover{
     border-radius: 5px;
     background-color:#009De0;
 }
-
 .txt_premiere{
     text-align: center;
     color: #FFFF;
     margin: auto;
     font-weight: 650;
 }
+.txt_premiere:hover{
+    color: black;
+}    
 
 .body1{
     height: 232px;
@@ -99,7 +101,6 @@ li.menu_items>a:hover{
     
 }
 .text{
-    font-family: 'Roboto', sans-serif;
     line-height: 48px;
     font-size: 20px;
     font-weight: 250;
@@ -111,7 +112,6 @@ li.menu_items>a:hover{
     display: block;
 }
 .content{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500px;
     line-height: 24px;
@@ -121,7 +121,6 @@ li.menu_items>a:hover{
 
 }
 .sub-content{
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 1000px;
     line-height: 24px;
@@ -135,15 +134,17 @@ li.menu_items>a:hover{
     display: flex;
     border-radius: 5px;
     background-color:#009De0;
-}
+}    
 .button{
     text-align: center;
     color: #FFFF;
     margin: auto;
     font-weight: 650;
 }
+.button:hover{
+    color: black;
+}
 .cs1{
-    font-family: 'Roboto',sans-serif;
     font-size: 20px;
     font-weight: 500px;
     line-height: 24px;
@@ -227,15 +228,12 @@ div.list>p{
 
 }
 .text1{
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: rgb(255, 255, 255);
     margin-left: 0%;
 }
-
-/* css for lay out end web */
 .web_end{
     width: 90%;
     height: 430px;
@@ -324,4 +322,5 @@ div.credit2>li{
 .layout2{
     flex: 1;
 }
+
 
