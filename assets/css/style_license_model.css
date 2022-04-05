@@ -1,19 +1,19 @@
-html body{
+html body {
     margin: 0 auto;
     padding: 0 auto;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #0F0F0F;
-    position: relative;
-    
+    width: 100%;
+
 }
 
 
 /* CSS for header */
-.active{
+.active {
     color: white;
 }
 
-.header{
+.header {
     background-color: #0F0F0F;
     width: 100%;
     height: 4rem;
@@ -22,7 +22,7 @@ html body{
     display: flex;
 }
 
-.header--logo{
+.header--logo {
     flex: 1;
     margin-left: 5%;
     color: white;
@@ -31,18 +31,18 @@ html body{
     white-space: nowrap;
 }
 
-.header--menu{
+.header--menu {
     flex: 4;
     margin-right: 20px;
 }
 
-.nav_menu{
+.nav_menu {
     display: flex;
     list-style: none;
     margin-left: 400px;
 }
 
-.menu_items{
+.menu_items {
     margin-right: 20px;
     overflow: hidden;
     white-space: nowrap;
@@ -52,67 +52,74 @@ html body{
     display: inline-flex;
 }
 
-.menu_items-icon{
+.menu_items-icon {
     color: #828282;
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: #828282;
 }
 
-li.menu_items>a:hover{
+li.menu_items>a:hover {
     color: white;
 }
 
-.header--preimere{
+.header--preimere {
     flex: 1;
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-.btnPremiere{
+.btnPremiere {
     width: 135px;
     height: 40px;
-    margin:auto;
+    margin: auto;
     display: flex;
     text-align: center;
     background-color: #009De0;
 }
 
-.txt_premiere{
+.txt_premiere {
     text-align: center;
     color: white;
     margin: auto;
     font-weight: 650;
 }
 
-.body1{
+.body1 {
     width: 100%;
     height: 100px;
 }
 
+
 /* css for license model */
-.bigbox{
+.big {
+    height: 720px;
+    width: 100%;
+    
+}
+
+.bigbox {
     display: flex;
     height: 680px;
     width: 100%;
 }
 
-.box{
+.box {
     flex: 1;
-    width:528px;
-    height:296px;
-    padding : 200px 90px;
+    width: 528px;
+    height: 296px;
+    padding: 200px 90px;
     display: flex;
-    
+
 }
-   
-.box1{
-    color:white;
-    font-size:56px;
+
+.box1 {
+    color: white;
+    font-size: 56px;
     line-height: 64px;
     height: 64px;
     width: 486.225px;
@@ -121,35 +128,34 @@ li.menu_items>a:hover{
 
 }
 
-.box2{
-    color:#828282;
+.box2 {
+    color: #828282;
     height: 72px;
     width: 528px;
     margin: 0 0 40px 0;
     font-size: 20px;
-    font-weight:500 ;
+    font-weight: 500;
     line-height: 24px;
 }
-.bot_item1{
+
+.bot_item1 {
     height: 56px;
     color: #FFFFFF;
     width: 137.175px;
     padding: 0 24px 0 24px;
     font-size: 20px;
-
     font-weight: 600;
     line-height: 56px;
-    text-align : center;
+    text-align: center;
     white-space: nowrap;
     word-spacing: 0px;
     cursor: pointer;
     display: inline-block;
-
     color: aliceblue;
-
     background-color: #009De0;
 }
-.item1{
+
+.item1 {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
@@ -163,14 +169,15 @@ li.menu_items>a:hover{
     cursor: pointer;
 }
 
-.item1:hover{
+.item1:hover {
     color: #0F0F0F;
 }
-.bot_item2:hover{
-   background-color: #333333;
 
+.bot_item2:hover {
+    background-color: #333333;
 }
-.bot_item2{
+
+.bot_item2 {
     font-size: 20px;
     font-weight: 600;
     line-height: 56px;
@@ -184,9 +191,9 @@ li.menu_items>a:hover{
     cursor: pointer;
     border: 1px solid #FFFFFF;
 }
-.item2{
-    font-size: 20px;
 
+.item2 {
+    font-size: 20px;
     font-weight: 600;
     line-height: 56px;
     text-align: center;
@@ -196,42 +203,42 @@ li.menu_items>a:hover{
     width: auto;
     display: inline;
     cursor: pointer;
-    color: aliceblue;
-    background-color: #0F0F0F;
-
-
+    color: #FFFFFF;
 }
 
+.box_item2 img {
+    width: 720px;
+    height: 700px;
+    font-weight: 300;
+    display: block;
+}
 
 
 
 
 /* Free music */
-.p2{
+.p2 {
     height: 472px;
-    width: 1312px;
-  
+    width: 100%;
+
 
 }
-.text_main{
-   font-size: 16px;
-   font-weight: 300;
-   line-height: 18.4px;
-   word-spacing: 0px;
-   padding: 64px 64px  150 px 0;
-   height: 472px;
-   width: 1312px;
-   min-height: auto;
-   min-width: auto;
-   position: relative;
-   top: 0px;
-   bottom: 0px;
-   left: 0px;
-   right: 0px;
-   display: block;
-   
-    }
-.text_header{
+
+.text_main {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.4px;
+    word-spacing: 0px;
+    padding: 64px 64px 150 px 0;
+    height: 472px;
+    width: 1312px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+
+}
+
+.text_header {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 300;
@@ -244,30 +251,29 @@ li.menu_items>a:hover{
     padding: 32px;
     padding-top: 150px;
     max-width: 70%;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
     display: block;
     z-index: 1;
 }
-.text1{
+
+.text1 {
     font-size: 16px;
     text-align: center;
     height: 24px;
     width: 920px;
     word-spacing: 0px;
-    
+
 }
-.text2{
+
+.text2 {
     font-size: 40px;
     height: 290px;
     width: 920px;
+    margin-left: 60px;
     line-height: 48px;
     text-align: center;
 }
-.ask{
+
+.ask {
     font-size: 16px;
     font-weight: 300;
     line-height: 18.4px;
@@ -275,49 +281,51 @@ li.menu_items>a:hover{
     height: 560px;
     width: 1440px;
     margin: 0 40px 0 40px;
-    padding: 0 64px 0 64px ;
+    padding: 0 64px 0 64px;
     max-width: 1440px;
     display: flex;
     padding-top: 220px;
 
 }
-.talk{
+
+.talk {
     font-size: 16px;
     font-weight: 300;
     line-height: 18.4px;
     word-spacing: 0px;
     height: 560px;
     width: 600px;
-    margin: 0 40px 0 0 ;
+    margin: 0 40px 0 0;
     min-height: auto;
-    min-width:auto ;
+    min-width: auto;
     display: flex;
 
 }
 
-.ask_item1{
-    
-    display: block;
+.ask_item1 {
+
     padding-top: 160px;
     height: 200px;
     width: 600px;
-    padding:16px 0 16px 0;
+    padding: 16px 0 16px 0;
     min-height: auto;
     min-width: auto;
     font-size: 16px;
     font-weight: 300;
     line-height: 18.4px;
 }
-.ask1{
+
+.ask1 {
     height: 48px;
     width: 600px;
     letter-spacing: -0.8px;
     margin: 4px 0 33px 0;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-size: 40px;
     word-spacing: 0px;
 }
-.ask2{
+
+.ask2 {
     height: 100px;
     width: 600px;
     color: #767676;
@@ -325,7 +333,8 @@ li.menu_items>a:hover{
     font-weight: 500;
     word-spacing: 0px;
 }
-.ask_item2{
+
+.ask_item2 {
     font-size: 16px;
     font-weight: 300;
     line-height: 18.4px;
@@ -340,32 +349,33 @@ li.menu_items>a:hover{
 
 /* css Our subscriptions */
 
-.pricing{
+.pricing {
     width: 90%;
-    height: 550px;
+    height: 760px;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
     background-color: #0F0F0F;
 }
-div.pricing>p{
+
+div.pricing>p {
     color: white;
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.grid_price{
+.grid_price {
     width: 100%;
     height: 700px;
     display: grid;
-    grid-template-columns: repeat(3,32%);
-    grid-template-rows: repeat(1,460px);
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(1, 460px);
     grid-column-gap: 2%;
 }
 
-.grid_items_pricing{
+.grid_items_pricing {
     background-color: #333333;
     display: flex;
     flex-direction: column;
@@ -374,31 +384,31 @@ div.pricing>p{
     width: 350px;
 }
 
-.pricing_title{
+.pricing_title {
     display: flex;
 }
 
-.pricing--p{
+.pricing--p {
     font-weight: 500;
     font-size: 32px;
     color: white;
     margin-bottom: 0px;
 }
 
-.title_money{
+.title_money {
     font-size: 48px;
     font-weight: 600;
     color: white;
 }
 
-.title_month{
+.title_month {
     font-weight: 600;
     font-size: 16px;
     color: white;
     margin-top: 30px;
 }
 
-.pricing_benefit{
+.pricing_benefit {
     width: 100%;
     height: 45%;
     margin-top: 10px;
@@ -407,23 +417,24 @@ div.pricing>p{
     padding-top: 15px;
     background-color: #333333;
 }
-div.pricing_benefit>p{
+
+div.pricing_benefit>p {
     color: white;
     margin-top: 0;
     font-weight: 600;
     font-size: 20px;
 }
 
-div.pricing_benefit>div>span>i{
+div.pricing_benefit>div>span>i {
     color: white;
 }
 
-div.pricing_benefit>div{
+div.pricing_benefit>div {
     padding: 5px 0;
     display: flex;
 }
 
-.pricing_header{
+.pricing_header {
     color: #767676;
     font-size: 20px;
     font-weight: 500;
@@ -433,8 +444,9 @@ div.pricing_benefit>div{
     width: auto;
 
 }
-.benefit_items{
-    color:#767676;
+
+.benefit_items {
+    color: #767676;
     padding-left: 5px;
     padding-right: 5px;
     font-weight: 500;
@@ -443,16 +455,16 @@ div.pricing_benefit>div{
     text-align: left;
 }
 
-.pricing_note{
+.pricing_note {
     width: 100%;
     height: 40px;
     text-align: start;
     white-space: pre-line;
     font-size: 16px;
-    background-color: #333333;
+    ;
 }
 
-div.pricing_note>p{
+div.pricing_note>p {
     margin-top: 0px;
     font-size: 16px;
     font-weight: 600;
@@ -460,19 +472,20 @@ div.pricing_note>p{
     color: #828282;
 }
 
-.pricing_note2{
+.pricing_note2 {
     width: 100%;
     height: 10%;
     display: flex;
 }
 
-.btn_learnMore{
+.btn_learnMore {
     flex: 1;
     display: flex;
     margin-top: 60px;
     justify-content: flex-end;
 }
-div.btn_learnMore>div{
+
+div.btn_learnMore>div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -480,71 +493,203 @@ div.btn_learnMore>div{
     color: #009DE0;
 }
 
-.style_btn{
+.style_btn {
     width: auto;
     height: 100%;
 }
 
-.style_btn:hover{
-    border-bottom: 2px solid #009DE0 ;
+.txt_premiere:hover {
+    color: #0F0F0F;
 }
-
 div.btn_learnMore>div>p{
     margin-bottom: 20px;
+}
+.style_btn p:hover {
+    border-bottom: 2px solid #009DE0;
+}
+
+div.btn_learnMore>div>p {
     font-weight: 600;
     font-size: 17px;
 }
 
 
+/* Questions*/
+.Question {
+    width: 1250px;
+    height: 400px;
+
+}
+
+.Question_header {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: left;
+    width: 500px;
+    margin-left: 80px;
+    width: 1300px;
+}
+
+.Question1 {
+    color: #FFFFFF;
+    border-bottom: 1px solid #767676;
+    border-top: 1px solid #767676;
+    height: 120px;
+    width: 1250px;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-top: 40px;
+    font-size: 1.25rem;
+}
+
+.Question1>p {
+    padding-top: 19px;
+   word-spacing: 1px;
+    text-align: left;
+    color: #767676;
+    font-size: 16px;
+}
+.Question1 >i{
+    float: right;
+    font-size: 15px;
+}
+.Question2 >i{
+    float: right;
+    font-size: 15px;
+}
+.Question3 >i{
+    float: right;
+    font-size: 15px;
+}
+
+.Question2 {
+    color: #FFFFFF;
+    height: 120px;
+    width: 1250px;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-top: 40px;
+    font-size: 1.25rem;
+}
+
+.Question2>p {
+    line-height: 22px;
+    font-size: 16px;
+    color: #767676;
+    word-spacing: 1px;
+    padding-top: 19px;
+}
+
+.Question3 {
+    color: #FFFFFF;
+    border-bottom: 1px solid #767676;
+    border-top: 1px solid #767676;
+    height: 180px;
+    width: 1250px;
+    margin-left: 80px;
+    margin-top: 130px;
+    padding-top: 40px;
+    font-size: 1.25rem;
+}
+.Question3>p {
+    line-height: 1.4rem;
+    font-size: 16px;
+    color: #767676;
+    word-spacing: 1px;
+    padding-top: 19px;
+}
+.Question3 >strong{
+    font-size: 16px;
+    color: #009De0;
+}
 
 
+/* css for lay out end web */
+.web_end{
+    width: 90%;
+    height: 430px;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 400px;
+}
 
+.layout1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+.social_network{
+    flex: 4;
+    display: flex;
+}
 
+.social_network1{
+    flex: 1;
+    padding-top: 120px;
+}
 
+div.social_network1>li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
 
+div.social_network1>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
+.social_network2{
+    background-color: black;
+    flex: 1;
+}
 
+.social_network3{
+    background-color: white;
+    flex: 1;
+}
 
+.credit{
+    flex: 1;
+    display: flex;
+}
 
+.credit1{
+    flex: 1;
+}
 
+.credit1>p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #828282;
+    margin-top: 0;
+}
 
+.credit2{
+    flex: 1;
+    display: flex;
+}
 
+div.credit2>li{
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #828282;
+}
+.credit2>li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #828282;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.layout2{
+    flex: 1;
+}
