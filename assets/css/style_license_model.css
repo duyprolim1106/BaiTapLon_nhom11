@@ -490,6 +490,7 @@ div.btn_learnMore>div{
 }
 
 div.btn_learnMore>div>p{
+    margin-bottom: 20px;
     font-weight: 600;
     font-size: 17px;
 }

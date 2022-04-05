@@ -4,6 +4,7 @@ html body{
     margin: 0 auto;
     background-color: #0F0F0F;
     font-family: sans-serif;
+
 }
 /* CSS for header */
 .active{
@@ -11,7 +12,7 @@ html body{
 }
 
 .header{
-    margin-top: -18px;
+    margin-top: -20px;
     background-color: #0F0F0F;
     width: 100%;
     height: 4rem;
@@ -322,5 +323,4 @@ div.credit2>li{
 .layout2{
     flex: 1;
 }
-
 
