@@ -217,7 +217,7 @@ div.text>h2{
     display: flex;
     padding-bottom: 120px;
     height: 65px;
-    width: 1315px;
+    width: 100%;
 }
 .display1{
     color: white;

@@ -7,12 +7,12 @@ var users = [
     {
         username: "minhhung@tlu.edu.vn",
         password: "123",
-        permission: "student"
+        permission: "user"
     },
     {
         username: "kimbau@tlu.edu.vn",
         password: "123",
-        permission: "student"
+        permission: "user"
     },
 ]
 
@@ -39,11 +39,11 @@ function login(){
         document.cookie = "username=" + val.username + ";expires=" + date;
         document.cookie = "permission=" + val.permission + ";expires=" + date;
         if (val.permission == "admin") {
-            location.href = './admin/admin.html';
+            location.href = '../../admin/admin.html';
             // alert("Đăng nhập với quyền admin")
-        } else if (val.permission == "student") {
-            // location.href = "student.html";
-            alert("Đăng nhập với permission sinh viên")
+        } else if (val.permission == "user") {
+            // location.href = "../../admin/user.html";
+            alert("Đăng nhập với người dùng")
         } else{
             alert("username must contant '@' and '_'");
         }

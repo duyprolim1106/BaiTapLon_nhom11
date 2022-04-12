@@ -1,7 +1,7 @@
 html body {
     margin: 0 auto;
     padding: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     background-color: #0F0F0F;
     width: 100%;
 
@@ -178,6 +178,7 @@ li.menu_items>a:hover {
 }
 
 .bot_item2 {
+    flex: 1;
     font-size: 20px;
     font-weight: 600;
     line-height: 56px;
@@ -206,8 +207,12 @@ li.menu_items>a:hover {
     color: #FFFFFF;
 }
 
+.box_item2{
+    flex: 1;
+}
+
 .box_item2 img {
-    width: 720px;
+    width: 100%;
     height: 700px;
     font-weight: 300;
     display: block;
@@ -220,8 +225,6 @@ li.menu_items>a:hover {
 .p2 {
     height: 472px;
     width: 100%;
-
-
 }
 
 .text_main {
@@ -279,7 +282,7 @@ li.menu_items>a:hover {
     line-height: 18.4px;
     word-spacing: 0px;
     height: 560px;
-    width: 1440px;
+    width: 100%;
     margin: 0 40px 0 40px;
     padding: 0 64px 0 64px;
     max-width: 1440px;
