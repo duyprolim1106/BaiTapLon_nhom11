@@ -40,7 +40,6 @@ function login(){
         document.cookie = "permission=" + val.permission + ";expires=" + date;
         if (val.permission == "admin") {
             location.href = '../../admin/admin.html';
-            // alert("Đăng nhập với quyền admin")
         } else if (val.permission == "user") {
             // location.href = "../../admin/user.html";
             alert("Đăng nhập với người dùng")
