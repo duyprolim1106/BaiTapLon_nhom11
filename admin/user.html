@@ -8,6 +8,39 @@
     <title>User</title>
 </head>
 <body>
-    
+    <header>
+        <div class="header">
+            <div class="header_items_left">
+                <h1>User</h1>
+                <p>Manage Music</p>
+            </div>
+            <div class="header_items_right">
+                <a href="../html/index.html">Home</a>
+            </div>
+        </div>
+    </header>
+    <form onsubmit="create_user()" action="" name="form_manage_user">
+        <div class="form_input">
+            <input class="form_input_items" type="text" name="name" id="name" placeholder="Name of song">
+            <input class="form_input_items" type="text" name="album" id="album" placeholder="Album">
+            <input class="form_input_items" type="text" name="singer" id="singer" placeholder="Singer">
+            <input class="form_input_items" type="text" name="kindOfMusic" id="kindOfMusic" placeholder="Kind of music">
+            <div class="btn_manage">
+                <button class="btns btn_add" id="add" type="button" onclick="adds()">Add</button>
+                <button class="btns btn_del" id="del" type="button" onclick="refresh()">Delete</button>
+            </div>
+        </div>
+    </form>
+    <div class="parent">
+        <div class="table_items">Name of song</div>
+        <div class="table_items table_items_border">Album</div>
+        <div class="table_items table_items_border">Singer</div>
+        <div class="table_items table_items_border">Kind of song</div>
+    </div>
+    <div class="parent" id="data_music">
+
+    </div>
+
+    <script src="/admin/js/user.js"></script>
 </body>
 </html>

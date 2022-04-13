@@ -1,5 +1,157 @@
 html body{
     margin: 0 auto;
     padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
     background-color: #0F0F0F;
+    align-items: center;
+}
+
+.header_items_left{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.header_items_left>h1{
+    color: white;
+    font-size: 30px;
+}
+
+.header_items_left>p{
+    margin-left: 20px;
+    margin-top: 28px;
+    font-size: 20px;
+    color: white;
+}
+
+.header_items_right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_items_right>a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+.form_input{
+    width: 60%;
+    height: 250px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_input_items{
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.btn_manage{
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns{
+    width: auto;
+    height: 30px;
+    padding: 20px 30px;
+    margin: 0 10px;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.btn_add:hover{
+    background-color: #218838;
+    opacity: 0.8;
+}
+.btn_read:hover{
+    background-color: #343A40;
+    opacity: 0.8;
+}
+.btn_update:hover{
+    background-color: #343A40;
+    opacity: 0.8;
+}
+.btn_del:hover{
+    background-color: #343A40;
+    opacity: 0.8;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.btn_add{
+    background-color: #28a745;
+    color: white;
+}
+
+.btn_read{
+    color: white;
+    background-color: #17a2b8;
+}
+
+.btn_update{
+    background-color: #ffc107;
+}
+
+.btn_del{
+    color: white;
+    background-color: #dc3545;
+}
+
+.table{
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    margin-top: 20px;
+}
+
+.table_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.table_items1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+}
+
+.table_items_border{
+    border-left: 1px solid #17a2b8;
 }
